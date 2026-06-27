@@ -1,0 +1,9 @@
+{
+  "name": "grandfusion",
+  "version": "0.1.0",
+  "description": "GrandFusion の人格AIスキル一式。統括ありさ（/arisa）と各PM（/beaute・/aru・/maker）をまとめて配布する。マスターはNotion、配布はこのプラグインで一元管理。",
+  "author": {
+    "name": "GrandFusion"
+  },
+  "keywords": ["grandfusion", "persona", "arisa", "beaute", "aru", "maker"]
+}
