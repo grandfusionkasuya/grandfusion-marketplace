@@ -1,0 +1,16 @@
+{
+  "name": "grandfusion-marketplace",
+  "owner": {
+    "name": "GrandFusion"
+  },
+  "metadata": {
+    "description": "GrandFusion 社内向け人格AIスキルの配布マーケットプレイス。"
+  },
+  "plugins": [
+    {
+      "name": "grandfusion",
+      "source": "./plugins/grandfusion",
+      "description": "統括ありさ（/arisa）と各PM（/beaute・/aru・/maker）の人格AIスキル一式。"
+    }
+  ]
+}
