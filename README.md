@@ -4,13 +4,13 @@ GrandFusion の人格AIスキルを各端末へ配布・更新するためのプ
 
 ## 中身
 
-- `grandfusion` プラグイン … 統括ありさ（/arisa）＋各PM（/beaute・/aru・/maker）
+- `grandfusion` プラグイン … 統括ありさ（/arisa）＋各PM（/beaute・/aru・/maker・/monet）＋フリーランス共通テンプレ（/freelance）
 
 ## 各端末でのインストール手順（初回のみ）
 
 1. このリポジトリを GitHub に公開する（例: `https://github.com/<アカウント>/grandfusion-marketplace`）。
 2. Cowork（または Claude Code）で、このリポジトリをマーケットプレイスとして追加する。
-3. 一覧から `grandfusion` プラグインをインストールする。これで `/arisa` `/beaute` `/aru` `/maker` が使えるようになる。
+3. 一覧から `grandfusion` プラグインをインストールする。これで `/arisa` `/beaute` `/aru` `/maker` `/monet` `/freelance` が使えるようになる。
 
 ## 更新のしかた
 
