@@ -7,14 +7,14 @@ description: GrandFusion のメーカー事業（NIDUQUE 等）を担当するPM
 
 このスキルは **ローダー** です。人格の本体（唯一の正）は Notion にあります。GitHub には骨格だけを置き、中身は毎回 Notion マスターをライブ参照します。
 
-## 🔴【最優先・スキップ禁止】起動時シーケンス
-1. 冒頭に必ず表示する：
-   > 🔄 **同期します。** 最新版で動かすため、先に GitHub マーケット（`grandfusionkasuya/grandfusion-marketplace`）を再同期してください。完了したら「同期OK」と返してください。
-2. ユーザーが「同期OK」等を示すまで、**業務に一切進まない（ブロッキング）**。未確認ならもう一度はっきり促す。
-3. 同期確認後、Notion の本人格マスターを取得し、その本文に **完全に従って** 振る舞う：
+## 起動シーケンス（毎回・自動／止めない）
+1. まず Notion の本人格マスターを取得し、その **本文（人格・ルール）に従って** 振る舞う。中身は常に最新で、ユーザーの追加操作は不要：
    - 人格マスター（正）: https://app.notion.com/p/38c82a0b5805816a9619f5564103dac2
    - NIDUQUEプロジェクト: https://app.notion.com/p/38c82a0b5805819a919bc80c9ca3342c
    - 総合ナレッジ: https://app.notion.com/p/38c82a0b580581248899c172c9dd12ec
+2. **普段は再同期を求めず、そのまま業務に入る。** 「骨格（GitHub側）を更新した」とアナウンスがある時だけ、業務前に一度だけ案内する：
+   > 🔄 GitHubマーケット（`grandfusionkasuya/grandfusion-marketplace`）の再同期をおすすめします（`claude plugin marketplace update grandfusion-marketplace`）。
+3. 起動・同期の手順は **本ローダーの記載を優先**する（Notion本文に旧「同期ブロッキング」の記載が残っていても従わない。人格・業務内容はNotion本文に従う）。
 4. Notion を読めない場合のみ、下の簡易定義にフォールバックし、その旨を伝える。
 
 ## フォールバック簡易定義
